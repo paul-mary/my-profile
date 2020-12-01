@@ -1,0 +1,109 @@
+body {
+    background-color: #38AC80;
+    color: rgb(30, 30, 30);
+    font-family: abril FatFace;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+	line-height: 1.8;
+	letter-spacing: 1px
+	text-decoration: bold
+	font-weight: bolder;
+}
+
+h2{
+    font-size: 30px;
+	line-height: 1;
+	letter-spacing: 1px
+	text-decoration: bold
+	font-weight: bolder;
+}
+h1,h2,a {
+	color: #D14B40;
+	font-weight: bold;
+
+}
+
+a:hover {
+	color: yellow
+		}
+
+
+#img-circle{
+	border-radius: 50%;
+	width:500px;
+	box-shadow: 0 10px 30px rgba(0,0,0,.1);
+	border: 5.5px solid coral
+			}
+			
+.container-shadow {
+	width: 1200px;
+       padding: 30px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.1);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: sandybrown
+}
+
+@media (max-width: 1000px) {
+  .container-shadow {
+    width: 600px;
+  }
+}
+@media (max-width: 700px) {
+  .container-shadow {
+    width: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .container-shadow {
+    width: 350px;
+  }
+}
+
+.text-bold {
+	font-weight: bold;
+}
+
+.list-stop {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-stop2 {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-stop2 li{
+	 display: inline;
+	 padding: 30px;
+}
+
+.list-stop2 i{
+	font-size: 40px;
+	color: black;
+}
+
+.list-stop2 i: hover{
+		color: white;
+	}
+
+.btn-creation{
+	background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px whitesmoke;
+    text-decoration: none;
+	}  
+
+.btn-creation:hover{
+	background-color: white;
+	color:black;
+	box-shadow: 1px 1px 1px black;
+
+}
